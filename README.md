@@ -55,38 +55,11 @@ L'AFD est une méthode multivariée permettant :
 
 ---
 
-## 🧪 Extrait de code (Python)
+## 🧪 Librairie (Python)
 
-Voici un exemple d’analyse en Python avec `pandas`, `scikit-learn` et `matplotlib` :
+
 
 ```python
 import pandas as pd
-from sklearn.discriminant_analysis import LinearDiscriminantAnalysis
-import matplotlib.pyplot as plt
-from sklearn.preprocessing import StandardScaler
-
-# Charger les données
-df = pd.read_csv("donnees_insertion_universites.csv")
-
-# Supposons que 'groupe_region' est la variable de regroupement des universités
-X = df.drop(columns=["nom_universite", "groupe_region"])
-y = df["groupe_region"]
-
-# Normalisation
-scaler = StandardScaler()
-X_scaled = scaler.fit_transform(X)
-
-# AFD (LDA en anglais)
-lda = LinearDiscriminantAnalysis(n_components=2)
-X_lda = lda.fit_transform(X_scaled, y)
-
-# Visualisation
-plt.figure(figsize=(10, 6))
-for label in y.unique():
-    plt.scatter(X_lda[y == label, 0], X_lda[y == label, 1], label=label)
-plt.title("Analyse Factorielle Discriminante des Universités")
-plt.xlabel("LD1")
-plt.ylabel("LD2")
-plt.legend()
-plt.grid()
-plt.show()
+from IPython.display import display #to display DataFrames in Jupyter notebooks
+import numpy as np #for numerical operations
