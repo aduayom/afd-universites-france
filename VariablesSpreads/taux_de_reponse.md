@@ -61,7 +61,7 @@ Cette analyse examine la participation aux enquêtes d'insertion professionnelle
 ## 📈 Visualisation recommandée
 
 *Fig. 1 - Graphique en barres montrant la progression du taux de réponse moyen par catégorie*
-![Distribution des taux de réponse par décile](chemin/vers/taux_reponse_deciles.png)  
+![Distribution des taux de réponse par catégorie](../Images/Taux_de_reponses.png)  
 -----
 
 ## 🔍 Pistes d'approfondissement
