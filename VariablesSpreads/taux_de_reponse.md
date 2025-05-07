@@ -54,7 +54,7 @@ Cette analyse explore la distribution du **taux de réponse** aux enquêtes d'in
 
 ## 🖼️ Visualisation recommandée
 
-![Distribution du taux de réponse par quartile](chemin/vers/votre_image.png)  
+![Distribution du taux de réponse par quartile](../Images/Taux_de_reponses.png)  
 *Fig. 1 - Histogramme des taux de réponse avec découpage en quartiles*
 
 ---
