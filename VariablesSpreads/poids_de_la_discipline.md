@@ -1,5 +1,3 @@
-Parfait, voici l'analyse de ce second tableau, toujours au format Markdown :
-
 # 📊 Analyse du Poids Moyen des Disciplines par Catégorie de Taux de Réponse
 
 Cette analyse examine le poids moyen des disciplines au sein de chaque catégorie de taux de réponse (C1 à C10). Les résultats mettent en lumière la distribution des observations et les valeurs extrêmes du poids des disciplines par catégorie.
