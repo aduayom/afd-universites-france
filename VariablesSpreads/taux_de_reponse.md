@@ -71,5 +71,5 @@ Pour approfondir l'analyse :
 ### 🔗 Intégration technique (Markdown GitHub)
 Pour insérer l'image dans votre documentation :
 ```markdown
-![Légende de l'image](chemin/relatif/ou/url_image.png)
+![Légende de l'image](Images/Taux_de_reponses.png)
 ```
