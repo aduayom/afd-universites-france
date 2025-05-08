@@ -64,3 +64,5 @@ import pandas as pd
 from IPython.display import display #to display DataFrames in Jupyter notebooks
 import numpy as np #for numerical operations
 from sklearn.cluster import KMeans #for KMeans clustering
+
+pip install prince
